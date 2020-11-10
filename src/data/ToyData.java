@@ -8,6 +8,9 @@ public class ToyData {
 
     public static Bike[] getBikes() {
         Bike[] bikes = new Bike[3];
+        bikes[0] = new Bike("nmax",155);
+        bikes[1] = new Bike("xmax",300);
+        bikes[2] = new Bike("pcx",150);
         // your code
 
         return bikes;
@@ -15,7 +18,6 @@ public class ToyData {
 
     public static Person[] getPerson() {
         Person[] person = new Person[3];
-        // your code
         person[0] = new Person ("Tanawat", "Naklor");
         person[1] = new Person ("Jirasin","Chatbanyong");
         person[2] = new Person ("Naruebet", "Pattarasanya");
@@ -24,8 +26,6 @@ public class ToyData {
 
     public static Parcel[] getParcels() {
         Parcel[] parcels = new Parcel[10];
-        // your code
-
         return parcels;
     }
 
